@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Cekmata</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="upload">Unggah</string>
+    <string name="cekmata">Cek Mata</string>
+    <string name="lokasi">Lokasi Dokter Mata</string>
+    <string name="info">Informasi Mata</string>
+    <string name="photo">Ambil Foto</string>
+    <string name="flip">Flip</string>
+    <string name="imageview">Image View</string>
+    <string name="takephoto">Take Photo</string>
+    <string name="folder">Folder</string>
+</resources>
