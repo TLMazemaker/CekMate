@@ -1,0 +1,308 @@
+{
+	"info": {
+		"_postman_id": "6aa6f331-39cc-4b92-b8c0-506344e1b5ce",
+		"name": "cekmate",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "{{url}}/register",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "username",
+							"value": "test3",
+							"type": "text"
+						},
+						{
+							"key": "email",
+							"value": "user3@example.com",
+							"type": "text"
+						},
+						{
+							"key": "password",
+							"value": "testpw",
+							"type": "text"
+						},
+						{
+							"key": "nama",
+							"value": "ini untuk nama",
+							"type": "default"
+						},
+						{
+							"key": "no_hp",
+							"value": "081234567890",
+							"type": "default"
+						},
+						{
+							"key": "tanggal_lahir",
+							"value": "2001-12-30",
+							"type": "default"
+						}
+					]
+				},
+				"url": {
+					"raw": "{{url}}/register",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"register"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "{{url}}/login",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Jwt-Authorization",
+						"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1aWQiOiIzIiwidXNlcm5hbWUiOiJ0ZXN0MiIsIkFQSV9USU1FIjoxNjg1Nzc1MDMwfQ.ybZhNZLWGS3ETbtMDSouVSvh1ZuqEDm5xz31CAtbowg"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "username",
+							"value": "test3",
+							"type": "text"
+						},
+						{
+							"key": "password",
+							"value": "testpw",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "{{url}}/login",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"login"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "{{url}}/api/test_api/verify_token",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Jwt-Authorization",
+						"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1aWQiOiIyIiwidXNlcm5hbWUiOiJ0ZXN0IiwiQVBJX1RJTUUiOjE2ODU3NzE1NTh9.eL90BtURwQm3uNxG3sNPkw_HV4JDgPYc_GFS-_xT-Ug",
+						"type": "default"
+					}
+				],
+				"url": {
+					"raw": "{{url}}/api/test_api/verify_token",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"api",
+						"test_api",
+						"verify_token"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "{{url}}/data_deteksi/insert",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Jwt-Authorization",
+						"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1aWQiOiI0IiwidXNlcm5hbWUiOiJ0ZXN0MyIsIkFQSV9USU1FIjoxNjg2ODE3NzEzfQ.4sPkwo7rUCD8uNhzw4Iqh7XrtTNINqVv0tmjUCtU6LY"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "foto_mata_sebelum",
+							"type": "file",
+							"src": "/C:/Users/presiden/Downloads/cekmate/lasttest.jpg"
+						}
+					]
+				},
+				"url": {
+					"raw": "{{url}}/data_deteksi/insert",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"data_deteksi",
+						"insert"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "{{url}}/data_deteksi/list",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Jwt-Authorization",
+						"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1aWQiOiIyIiwidXNlcm5hbWUiOiJ0ZXN0IiwiQVBJX1RJTUUiOjE2ODY4MTU5MjF9.z9otAEr01cAJywtHmboD2fPxhP2rDVTbRJNvNUZcm84"
+					}
+				],
+				"url": {
+					"raw": "{{url}}/data_deteksi/list",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"data_deteksi",
+						"list"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "{{url}}/data_deteksi/show/1",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Jwt-Authorization",
+						"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1aWQiOiIzIiwidXNlcm5hbWUiOiJ0ZXN0MiIsIkFQSV9USU1FIjoxNjg1Nzc1MDMwfQ.ybZhNZLWGS3ETbtMDSouVSvh1ZuqEDm5xz31CAtbowg"
+					}
+				],
+				"url": {
+					"raw": "{{url}}/data_deteksi/show/1",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"data_deteksi",
+						"show",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "{{url}}/data_deteksi/delete/1",
+			"request": {
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "Jwt-Authorization",
+						"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1aWQiOiI2IiwidXNlcm5hbWUiOiJuZXdVc2VyNDQxIiwiQVBJX1RJTUUiOjE2ODE2NjA0ODN9.5GgUloKx8j4DOL2HyI_oaciV31-zZnVCCEzymYkomI0"
+					}
+				],
+				"url": {
+					"raw": "{{url}}/data_deteksi/delete/1",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"data_deteksi",
+						"delete",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "TESTING api_ml",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "ya29.a0AWY7Ckmx3cLnf8dAOKk-TyliIFBBQbU8y2A8qt_uk_GorqWG5Ccclf18qoguuXDzcKxioiSpZ11FNHCaArV-IlLsER5Ol8gxAK2zY1cVHSlm7my7o-pjJoTlCsC9xq51d5Zun6-IJPOPu3zRY7QAZWNKYKiWMHhJWEZZ98Qq2kUUe5Yw2OYefMuD9MnNbWRLJSOC6wPUVb5uM9_-Dn7i3_CCTYVES2K8sAaCgYKAecSARASFQG1tDrp-wegFOXaiiSZJNrVOXm5Fg0233",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "CloudShellAuthorization",
+						"value": "Bearer ya29.a0AWY7Ckmx3cLnf8dAOKk-TyliIFBBQbU8y2A8qt_uk_GorqWG5Ccclf18qoguuXDzcKxioiSpZ11FNHCaArV-IlLsER5Ol8gxAK2zY1cVHSlm7my7o-pjJoTlCsC9xq51d5Zun6-IJPOPu3zRY7QAZWNKYKiWMHhJWEZZ98Qq2kUUe5Yw2OYefMuD9MnNbWRLJSOC6wPUVb5uM9_-Dn7i3_CCTYVES2K8sAaCgYKAecSARASFQG1tDrp-wegFOXaiiSZJNrVOXm5Fg0233",
+						"type": "default"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "file",
+							"type": "file",
+							"src": "/C:/Users/presiden/Downloads/cekmate/test2.PNG"
+						}
+					]
+				},
+				"url": {
+					"raw": "https://apiml-dot-cekmate.et.r.appspot.com/predict",
+					"protocol": "https",
+					"host": [
+						"apiml-dot-cekmate",
+						"et",
+						"r",
+						"appspot",
+						"com"
+					],
+					"path": [
+						"predict"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"variable": [
+		{
+			"key": "url",
+			"value": "https://cekmate.et.r.appspot.com/",
+			"type": "string"
+		},
+		{
+			"key": "url",
+			"value": "http://localhost/Cekmate-Cek-Mata-Elektronik/CC/api/",
+			"type": "default",
+			"disabled": true
+		}
+	]
+}
