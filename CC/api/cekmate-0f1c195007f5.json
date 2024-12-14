@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "cekmate",
+  "private_key_id": "0f1c195007f515ad245cd73e54d2468410e1d4ff",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQCv8D4B4jCF8Mv3\nqu5hi13VcwDR4gB6PRRq8HtToOPvwgnCH1RAIoIG7wttK46IjIVS+iuMuWTwZuPS\nqtkXyXGexWRT2QTKyDVQYeKR3o318afR0JgENM28hF7nZLJbBiGn2WGMxMmaWxow\nUaVzIEenSoL6WtkBc5rVUXZoISb+AKYnhtfoLedc8JvhOOTkJgbAmWMJUp2sGBb+\n5VSy48T9QaQn9LRKJd+mM6aOh+PgVDjNOxHJkl6jFaRC9F7fK7EckNPaF3i+IGZv\nbX5uZXbpXWlrEPeFNQGCBZjiEcOJwGG6LPAiZmQCTe6RuvGPLuvTLLK8N1Dh3bsf\n9PynVwUpAgMBAAECggEABNy+2fTf7zoYaPlwXRtc6U+kViiVmss7vtJzYuKvafdG\nDcQpfLXd1UZsXZ5pvs+JxiFKOTlmcL5nM9gRtKnJWhONq90mvlpW66gvR5i++gat\nSXJaWsNnn2FV8U8qUeZ5etbaVOmbW+8b0JOkRVCldxoed7/+MoWsLpKk+Xu93ocn\nGA2if499S/xnfV9HO5mSuR+gObgxYhsvTXMnGURv8bXVzO5wha3nnrBJU8d4mLQU\nw5FHlBdDEHHtXhKsQcFBYqYRf2pxCjJusvIr8HwFLBUE4xgdPmJLqy8fFcle0GnM\nbRUjgWMbLD5OrE3F3YjNtL7kTK0UWX3AJa/JXDk3gQKBgQDmYsF3Gap/EGoDGKCn\niD81N2V+zA7NAK7jod+/F5gmuL0r/Eh+1uuzQ5G0WmjrTj4hYNtrJYaPkcnm7N+P\nFweAKHE5lY9ob7SSbd/xTfR2001jxb1lBg7ywRlU89OC2hdPiL/cBSPUeWgYBZ+3\n6S5p5L6f3Z2BKfhcC2bd6YxUwwKBgQDDf85KIs/WZO99nu5uBsGDz+Gb6GZt+FWN\ngcNbxC5GGv5uu87xecgfwAuOH6ef5VOCcPJtzAMbxfYcxVcyNX8cgC/AY9yULHXg\n0JTyENfG2y4wXzEmYkRMK38q0Bne9s+Cvzniy9ERb5YMOkpo5fbHBuHwq0vfEoLD\n6LEU5wnvowKBgFgqQs9JSy4FIgy9R/3U7ht3b6fuf1uEf2ktcWq3pMpsuDg0+6lO\npjScDw5t6ujhsHUlk9KVMcGPkSyGSaeAsKYi0/Gtgov886V11tWJd5xhkKQ18BzR\nDLdpnkAcbz0MKQ+OzZ1teiC9tVA8FrtSyShNGYYkUTo0zY6r7lnOHp3xAoGATNcM\nHwmFxU/Q7gAs2OQg5Y0ssNnsgKbOAZuSTJxUT8vGW4HH+hOSvCAAqrD4cplxdGCu\neMdqJV1uuao69ooeVvZvTmAxz6+V+XIiSO6j0Q5PHkYcDGktTP7/sbUvpfo+X7aH\nqwPPPdotEMtMeeSBVYL4BV9ep+Qfr57jE0MoHZ8CgYAzVluRVv9WoPhLFBSwd7WL\nfAMDIssWZxsKahELNfG4kes4bdZjUX+4yfKNRqdUn1730xkH/TPkP5uFd2IebCLK\nCqHn7BxC+2Kpl8IdyB2Zm3xp4KtUIv86KTK15ZTvefj7MHX2i8pkQBjyQ75aZqVb\nScKp/ewrO0IemqWQS+C77A==\n-----END PRIVATE KEY-----\n",
+  "client_email": "bucket@cekmate.iam.gserviceaccount.com",
+  "client_id": "109385399709742259447",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/bucket%40cekmate.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
